@@ -26,7 +26,7 @@ export async function signup(formData: FormData) {
 
   await createSession(result.id);
 
-  redirect("/profile");
+  redirect("/dashboard");
 }
 
 export async function logout() {
